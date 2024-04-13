@@ -1045,7 +1045,11 @@ button, a { transition: var(--transition); }
   margin-bottom: 68px;
 }
 
-.footer .container { padding-inline: 30px; }
+.footer .container { 
+  max-width: 100%;
+  margin: 0 auto;
+  padding-inline: 30px;
+ }
 
 .footer a { color: inherit; }
 
