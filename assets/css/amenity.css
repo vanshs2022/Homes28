@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(255, 248, 234, 0.653);
+}
+
+.amenity-name{
+    font-family: 'Sans Serif', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.slideshow-container {
+    width: 80%;
+    height: 600px;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 150px;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow-item {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s, background-image 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    width: 80%;
+    height: 600px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 800px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+}
+
+.text-overlay.active {
+    opacity: 1;
+}
