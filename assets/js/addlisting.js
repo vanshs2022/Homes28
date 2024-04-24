@@ -35,9 +35,14 @@ $(".previous").click(function(){
   animating = false;
 });
 
+function redind(){
+  window.location.href = 'index.html';
+}
+
 $(".submit").click(function(){
   // Show the thank you message
-  $("fieldset").html("<h2>Thank You!</h2><p>Your form has been submitted.</p>");
+  $("fieldset").html("<dotlottie-player src='https://lottie.host/da702c56-954f-494d-b111-ca966e7c8fae/7letoOknM0.json' background='transparent' speed='1' style='width: 300px; height: 300px' direction='1' playMode='normal' loop  autoplay></dotlottie-player><h2 id='thx'>Thank You!</h2><p>Your Property has been listed.</p>");
+  setTimeout(redind,2000);
   return false; // Prevent form submission
 });
 
