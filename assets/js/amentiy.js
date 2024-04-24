@@ -18,9 +18,9 @@ const amenityName  = [
 
 const aminiteis = [
     [
-        { image: 'back1.png', text: 'Vasant Vihar, New Delhi, Delhi, India' },
-        { image: 'back3.png', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
-        { image: 'back3.png', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
+        { image: './assets/images/aminities/swim1.jpg', text: 'Vasant Vihar, New Delhi, Delhi, India' },
+        { image: './assets/images/aminities/swim2.jpg', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
+        { image: './assets/images/aminities/swim3.jpg', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
         { image: 'back3.png', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
         { image: 'back3.png', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
         { image: 'back3.png', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
