@@ -849,6 +849,7 @@ button, a { transition: var(--transition); }
 .features-card {
   position: relative;
   background: var(--white);
+  width: 250px;
   padding: 40px 15px;
   border-radius: 12px;
   display: flex;
