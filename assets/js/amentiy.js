@@ -35,52 +35,52 @@ const aminiteis = [
         { image: '/assets/images/aminities/swim-6.jpeg', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
     ],
     [
-        { image: './assets/images/aminities/back1.png', text: 'Vasant Vihar, New Delhi, Delhi, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
-        { image: './assets/images/aminities/back1.png', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
+        { image: '/assets/images/aminities/security-1.jpg', text: 'Vasant Vihar, New Delhi, Delhi, India' },
+        { image: '/assets/images/aminities/security-2.jpg', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
+        { image: '/assets/images/aminities/security-3.jpg', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
+        { image: '/assets/images/aminities/security-4.jpg', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
+        { image: '/assets/images/aminities/security-5.jpg', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
+        { image: '/assets/images/aminities/security-6.jpg', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
     ],
     [
-        { image: './assets/images/aminities/back1.png', text: 'Vasant Vihar, New Delhi, Delhi, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
-        { image: './assets/images/aminities/back1.png', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
+        { image: '/assets/images/aminities/clinic-1.jpg', text: 'Vasant Vihar, New Delhi, Delhi, India' },
+        { image: '/assets/images/aminities/clinic-2.jpg', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
+        { image: '/assets/images/aminities/clinic-3.jpg', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
+        { image: '/assets/images/aminities/clinic-4.jpg', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
+        { image: '/assets/images/aminities/clinic-5.jpg', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
+        { image: '/assets/images/aminities/clinic-6.jpg', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
     ],
     [
-        { image: './assets/images/aminities/back1.png', text: 'Vasant Vihar, New Delhi, Delhi, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
-        { image: './assets/images/aminities/back1.png', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
+        { image: '/assets/images/aminities/library-1.jpg', text: 'Vasant Vihar, New Delhi, Delhi, India' },
+        { image: '/assets/images/aminities/library-2.jpg', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
+        { image: '/assets/images/aminities/library-3.jpg', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
+        { image: '/assets/images/aminities/library-4.jpg', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
+        { image: '/assets/images/aminities/library-5.jpg', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
+        { image: '/assets/images/aminities/library-6.jpg', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
     ],
     [
-        { image: './assets/images/aminities/back1.png', text: 'Vasant Vihar, New Delhi, Delhi, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
-        { image: './assets/images/aminities/back1.png', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
+        { image: '/assets/images/aminities/bed-1.jpg', text: 'Vasant Vihar, New Delhi, Delhi, India' },
+        { image: '/assets/images/aminities/bed-2.jpg', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
+        { image: '/assets/images/aminities/bed-3.jpg', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
+        { image: '/assets/images/aminities/bed-4.jpg', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
+        { image: '/assets/images/aminities/bed-5.jpg', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
+        { image: '/assets/images/aminities/bed-6.jpg', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
     ],
     [
-        { image: './assets/images/aminities/back1.png', text: 'Vasant Vihar, New Delhi, Delhi, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
+        { image: '/assets/images/aminities/smart-1.jpg', text: 'Vasant Vihar, New Delhi, Delhi, India' },
+        { image: '/assets/images/aminities/smart-2.jpg', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
+        { image: '/assets/images/aminities/smart-3.jpg', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
+        { image: '/assets/images/aminities/smart-4.jpg', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
+        { image: '/assets/images/aminities/smart-5.jpg', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
+        { image: '/assets/images/aminities/smart-6.jpg', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
     ],
     [
-        { image: './assets/images/aminities/back1.png', text: 'Vasant Vihar, New Delhi, Delhi, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
-        { image: './assets/images/aminities/back1.png', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
+        { image: '/assets/images/aminities/play-1.jpg', text: 'Vasant Vihar, New Delhi, Delhi, India' },
+        { image: '/assets/images/aminities/play-2.jpg', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
+        { image: '/assets/images/aminities/play-3.jpg', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
+        { image: '/assets/images/aminities/play-4.jpg', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
+        { image: '/assets/images/aminities/play-5.jpg', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
+        { image: '/assets/images/aminities/play-6.jpg', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
     ],
 ];
 
