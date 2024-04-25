@@ -17,21 +17,22 @@ const amenityName  = [
 ]
 
 const aminiteis = [
-    [
-        { image: './assets/images/aminities/swim1.jpg', text: 'Vasant Vihar, New Delhi, Delhi, India' },
-        { image: './assets/images/aminities/swim2.jpg', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
-        { image: './assets/images/aminities/swim3.jpg', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
+    [   
+        { image: '/assets/images/aminities/parking-1.jpg', text: 'Vasant Vihar, New Delhi, Delhi, India' },
+        { image: '/assets/images/aminities/parking-2.jpg', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
+        { image: '/assets/images/aminities/parking-3.jpg', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
+        { image: '/assets/images/aminities/parking-4.jpg', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
+        { image: '/assets/images/aminities/parking-5.jpg', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
+        { image: '/assets/images/aminities/parking-6.jpg', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
+        
     ],
     [
-        { image: './assets/images/aminities/back1.png', text: 'Vasant Vihar, New Delhi, Delhi, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
-        { image: './assets/images/aminities/back1.png', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
-        { image: './assets/images/aminities/back3.png', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
-        { image: './assets/images/aminities/back2.png', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
+        { image: '/assets/images/aminities/swim1.jpg', text: 'Vasant Vihar, New Delhi, Delhi, India' },
+        { image: '/assets/images/aminities/swim2.jpg', text: 'Trikuta Nagar, Jammu, Jammu and Kashmir, India' },
+        { image: '/assets/images/aminities/swim3.jpg', text: 'Malabar Hill, Mumbai, Maharashtra, India' },
+        { image: '/assets/images/aminities/swim-4.jpg', text: 'Gomti Nagar, Lucknow, Uttar Pradesh, India' },
+        { image: '/assets/images/aminities/swim-5.jpg', text: 'Kalyani Nagar, Pune, Maharashtra, India' },
+        { image: '/assets/images/aminities/swim-6.jpeg', text: 'Gurgoan Delhi Expressway, Gurgoan, Delhi, India'}
     ],
     [
         { image: './assets/images/aminities/back1.png', text: 'Vasant Vihar, New Delhi, Delhi, India' },
