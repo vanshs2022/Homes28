@@ -140,9 +140,11 @@
 
         <div class="header-bottom-actions">
 
-          <button class="header-bottom-actions-btn" aria-label="Profile">
-            <ion-icon name="person-outline"></ion-icon>
-
+          <button class="header-bottom-actions-btn"  aria-label="Profile">
+            <a href="login.html">
+              <ion-icon name="person-outline"></ion-icon>
+            </a>
+ 
             <span>Profile</span>
           </button>
 
@@ -187,13 +189,49 @@
               Discover Your Dream Home: Where Every Listing Tells a Story!
             </p>
 
-            <button class="btn">Make An Enquiry</button>
+            <div class=body> 
+
+              <button class="btn-open-popup" onclick="togglePopup()"> 
+                Make An Enquiry
+              </button> 
+              
+              <div id="popupOverlay" 
+              class="overlay-container"> 
+              <div class="popup-box"> 
+                <h2 style="color: green;">Popup Form</h2> 
+                <form class="form-container"> 
+                    <label class="form-label" 
+                           for="name"> 
+                      Username: 
+                      </label> 
+                    <input class="form-input" type="text" 
+                           placeholder="Enter Your Username" 
+                           id="name" name="name" required> 
+              
+                    <label class="form-label" for="email">Email:</label> 
+                    <input class="form-input"
+                           type="email" 
+                           placeholder="Enter Your Email"
+                           id="email" 
+                           name="email" required> 
+              
+                    <button class="btn-submit" 
+                            type="submit"> 
+                      Submit 
+                      </button> 
+                </form> 
+              
+                <button class="btn-close-popup" 
+                        onclick="togglePopup()"> 
+                  Close 
+                  </button> 
+              </div> 
+              </div> 
+              </div>
 
           </div>
 
-          <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" alt="Modern house model" class="w-100">
-          </figure>
+          
 
         </div>
       </section>
@@ -333,7 +371,7 @@
                 </p>
 
                 <a href="addlisting.html" class="card-link">
-                  <span>Find A Home</span>
+                  <span>List A Home</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </a>
@@ -358,7 +396,7 @@
                 </p>
 
                 <a href="addlisting.html" class="card-link">
-                  <span>Find A Home</span>
+                  <span>List A Home</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </a>
@@ -435,7 +473,7 @@
 
                   <p class="card-text">
                     Adonia is an epitome of luxury living with spacious apartments and premium amenities such as a fully-equipped fitness center, 
-                    indoor and outdoor games facilities, a clubhouse, landscaped gardens, and much more. These amenities cater to the diverse needs 
+                    indoor and outdoor games facilities, a clubhouse, landscaped gardens. These amenities cater to the diverse needs 
                     and preferences of its residents and provide a wholesome living experience.
                   </p>
 
@@ -754,7 +792,7 @@
                 <figure class="card-banner">
 
                   <a href="#">
-                    <img src="./assets/images/property-4.png" alt="Luxury villa in Rego Park" class="w-100">
+                    <img src="./assets/images/property-4.jpg" alt="Luxury villa in Rego Park" class="w-100">
                   </a>
 
                   <div class="card-badge green">For Rent</div>
@@ -764,7 +802,7 @@
                     <button class="banner-actions-btn">
                       <ion-icon name="location"></ion-icon>
 
-                      <address>Belmont Gardens, Chicago</address>
+                      <address>Pondicherry</address>
                     </button>
 
                     <button class="banner-actions-btn">
@@ -786,15 +824,16 @@
                 <div class="card-content">
 
                   <div class="card-price">
-                    <strong>$34,900</strong>/Month
+                    <strong>₹1,00,000</strong>/Month
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Luxury villa in Rego Park</a>
+                    <a href="#">Luxury villa in Pondicherry</a>
                   </h3>
 
                   <p class="card-text">
-                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                    
+                  Nestled in the serene landscapes of Pondicherry, this exquisite villa offers a perfect blend of luxury and tranquility. With spacious interiors, breathtaking views, and modern amenities, it promises an unforgettable retreat for those seeking a peaceful escape. An amazing experience for holidays.
                   </p>
 
                   <ul class="card-list">
@@ -837,7 +876,7 @@
 
                     <div>
                       <p class="author-name">
-                        <a href="#">William Seklo</a>
+                        <a href="#">Marcus Adams</a>
                       </p>
 
                       <p class="author-title">Estate Agents</p>
@@ -1456,6 +1495,10 @@
       const url = new URL('amenity.html', window.location.href);
       url.searchParams.set('amenity', newAmenity);
       window.location.href = url.href;
+    }
+    function togglePopup() { 
+      const overlay = document.getElementById('popupOverlay'); 
+      overlay.classList.toggle('show'); 
     }
   </script>
   <!-- 
